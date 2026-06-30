@@ -128,7 +128,7 @@ Most recommended security headers are properly configured, indicating good secur
 
 ---
 
-# Part F – Robots.txt Analysis
+# Part F – Robots.txt and Sitemap Analysis
 
 The robots.txt file was accessed to understand crawler restrictions.
 
@@ -146,8 +146,6 @@ https://www.infosys.com/robots.txt
 
 ---
 
-# Part G – Sitemap Analysis
-
 The sitemap.xml file was checked to identify indexed pages.
 
 # URL
@@ -164,17 +162,79 @@ https://www.infosys.com/sitemap.xml
 
 ---
 
+# Part G – Reconnaissance Report
 
-# Observations
+# Target Information
 
-- The target website uses HTTPS.
-- Security headers are properly configured.
-- Public DNS information is accessible.
-- Domain registration information is available through WHOIS.
-- Website uses enterprise-level technologies.
-- Proper SEO configuration is implemented using robots.txt and sitemap.xml.
+Website Name: Infosys
+URL: https://www.infosys.com
+Reason for Selection:
+Infosys is a well-known IT company. It was selected to understand how large organizations manage their public information and security posture.
 
 ---
+
+# WHOIS Results
+
+* Domain Name: infosys.com
+* Registrar: Network Solutions, LLC
+* Registration Date: 1995-03-14
+* Domain Status: Active
+
+---
+
+# DNS Information
+
+* A Record: Available
+* MX Record: Available
+* NS Record: Available
+* TXT Record: Available
+
+---
+
+# Technologies Identified
+
+* Web Server: Nginx / Akamai
+* CMS: Adobe Experience Manager (AEM)
+* Programming Language: Java (Enterprise backend)
+* JavaScript Framework: Modern JS / React (approx)
+* CDN: Akamai
+
+---
+
+# HTTP Security Headers
+
+| Header                    | Present | Purpose                |
+| ------------------------- | ------- | ---------------------- |
+| Content-Security-Policy   | Yes     | Prevents XSS attacks   |
+| X-Frame-Options           | Yes     | Prevents clickjacking  |
+| X-Content-Type-Options    | Yes     | Stops MIME sniffing    |
+| Strict-Transport-Security | Yes     | Enforces HTTPS         |
+| Referrer-Policy           | Yes     | Controls referrer info |
+
+---
+
+# Robots.txt & Sitemap Analysis
+
+* Robots.txt: Available
+* Sitemap: Available
+
+Findings:
+
+* Robots.txt controls crawler access
+* Sitemap helps search engines index pages properly
+
+---
+
+# Overall Observations
+
+* Secure and professionally managed website
+* Strong DNS and infrastructure
+* Uses CDN for performance
+* Security headers properly configured
+* Well-structured for SEO and indexing
+
+---
+
 
 # Learning Outcomes
 
