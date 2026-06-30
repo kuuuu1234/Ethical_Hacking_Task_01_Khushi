@@ -48,7 +48,7 @@ The following online tools were used during this task:
 
 ---
 
-# Step 1 – WHOIS Lookup
+# Part B – WHOIS Lookup
 
 WHOIS lookup was performed to collect public information about the registered domain.
 
@@ -61,7 +61,6 @@ WHOIS lookup was performed to collect public information about the registered do
 - Name Servers
 - Domain Status
 
-# Observation
 
 The domain is registered through a well-known registrar and contains valid registration information. The domain status indicates that it is currently active.
 
@@ -69,7 +68,7 @@ The domain is registered through a well-known registrar and contains valid regis
 
 ---
 
-# Step 2 – DNS Enumeration
+# Part C – DNS Enumeration                 
 
 DNS Enumeration helps identify different DNS records associated with the website.
 
@@ -81,7 +80,6 @@ DNS Enumeration helps identify different DNS records associated with the website
 - NS Record
 - TXT Record
 
-# Observation
 
 The DNS records indicate proper domain configuration with dedicated mail servers and name servers.
 
@@ -89,7 +87,7 @@ The DNS records indicate proper domain configuration with dedicated mail servers
 
 ---
 
-# Step 3 – Website Technology Identification
+# Part D – Website Technology Identification
 
 Website technologies were identified using **BuiltWith** to understand the technologies and services used by the target website.
 
@@ -102,7 +100,6 @@ Website technologies were identified using **BuiltWith** to understand the techn
 - Analytics and Tracking Technologies
 - Marketing Automation Tools
 
-# Observation
 
 The BuiltWith analysis shows that the Infosys website uses multiple enterprise-grade technologies for analytics, marketing automation, customer engagement, and business management. These technologies help improve website performance, user experience, and digital marketing capabilities.
 
@@ -111,7 +108,7 @@ The BuiltWith analysis shows that the Infosys website uses multiple enterprise-g
 
 ---
 
-# Step 4 – HTTP Security Headers Analysis
+# Part E – HTTP Security Headers Analysis
 
 HTTP Security Headers were checked to evaluate the website's security posture.
 
@@ -123,7 +120,6 @@ HTTP Security Headers were checked to evaluate the website's security posture.
 | Strict-Transport-Security | Present | Forces HTTPS |
 | Referrer-Policy | Present | Controls Referrer Information |
 
-# Observation
 
 Most recommended security headers are properly configured, indicating good security practices.
 
@@ -132,7 +128,7 @@ Most recommended security headers are properly configured, indicating good secur
 
 ---
 
-# Step 5 – Robots.txt Analysis
+# Part F – Robots.txt Analysis
 
 The robots.txt file was accessed to understand crawler restrictions.
 
@@ -150,7 +146,7 @@ https://www.infosys.com/robots.txt
 
 ---
 
-# Step 6 – Sitemap Analysis
+# Part G – Sitemap Analysis
 
 The sitemap.xml file was checked to identify indexed pages.
 
