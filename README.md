@@ -65,11 +65,7 @@ WHOIS lookup was performed to collect public information about the registered do
 
 The domain is registered through a well-known registrar and contains valid registration information. The domain status indicates that it is currently active.
 
-**Screenshot**
-
-```
-Screenshots/01_WHOIS.png
-```
+![WHOIS](_WHOIS.png)
 
 ---
 
@@ -89,37 +85,29 @@ DNS Enumeration helps identify different DNS records associated with the website
 
 The DNS records indicate proper domain configuration with dedicated mail servers and name servers.
 
-**Screenshot**
-
-```
-Screenshots/02_DNS.png
-```
+![DNS](dns.png)
 
 ---
 
 # Step 3 – Website Technology Identification
 
-Website technologies were identified using BuiltWith.
+Website technologies were identified using **BuiltWith** to understand the technologies and services used by the target website.
 
 # Technologies Observed
 
-- Web Server
-- CDN
-- JavaScript Libraries
-- Frameworks
-- SSL Certificate
-- Analytics
-- Content Delivery Network
+- Omniture SiteCatalyst
+- BlueConic
+- Adobe Marketing Cloud
+- Salesforce
+- Analytics and Tracking Technologies
+- Marketing Automation Tools
 
 # Observation
 
-The website uses modern enterprise-level technologies for better security, scalability, and performance.
+The BuiltWith analysis shows that the Infosys website uses multiple enterprise-grade technologies for analytics, marketing automation, customer engagement, and business management. These technologies help improve website performance, user experience, and digital marketing capabilities.
 
-**Screenshot**
-
-```
-Screenshots/03_BuiltWith.png
-```
+![BuiltWith](builtwith.png)
+![BuiltWith](Builtwith1.png)
 
 ---
 
@@ -139,11 +127,8 @@ HTTP Security Headers were checked to evaluate the website's security posture.
 
 Most recommended security headers are properly configured, indicating good security practices.
 
-**Screenshot**
+![Security](security.png)
 
-```
-Screenshots/04_SecurityHeaders.png
-```
 
 ---
 
@@ -161,11 +146,7 @@ https://www.infosys.com/robots.txt
 - Sensitive directories are restricted from indexing.
 - Helps improve website SEO and crawler management.
 
-**Screenshot**
-
-```
-Screenshots/05_Robots.png
-```
+![Robots](Robots.png)
 
 ---
 
@@ -183,11 +164,7 @@ https://www.infosys.com/sitemap.xml
 - Contains URLs for search engine indexing.
 - Improves website discoverability.
 
-**Screenshot**
-
-```
-Screenshots/06_Sitemap.png
-```
+![Sitemap](sitemap.png)
 
 ---
 
@@ -219,9 +196,5 @@ After completing this task, I learned:
 
 ---
 
-# Conclusion
 
-This project provided practical knowledge of the reconnaissance phase of ethical hacking. During the task, publicly available information about the selected target website was collected using passive reconnaissance techniques. WHOIS lookup revealed domain registration details, DNS enumeration identified network-related records, and technology fingerprinting helped determine the technologies used by the website. Security headers were analyzed to understand how the website protects itself against common web-based attacks. Additionally, robots.txt and sitemap.xml files were examined to understand website indexing and crawler management. This exercise demonstrated that a significant amount of useful information can be obtained without interacting directly with the target system. Overall, the task strengthened my understanding of ethical hacking methodologies and the importance of information gathering in cybersecurity assessments.
-
----
 
